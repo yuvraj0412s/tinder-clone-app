@@ -17,7 +17,7 @@ This project was created as part of a Frontend Engineer internship assignment to
 
 | Home Screen | Swipe Right | Swipe Left | Empty Deck |
 | :---------: | :---------: | :--------: | :--------: |
-| <img src="./screenshots/home.png" alt="Home screen" width="200"/> | <img src="./screenshots/swipe-right.png" alt="Swipe right with glitter effect" width="200"/> | <img src="./screenshots/swipe-left.png" alt="Swipe left with cross animation" width="200"/> | <img src="./screenshots/reload.png" alt="You're all caught up reload state" width="200"/> |
+| <img src="./screenshots/card.png" alt="Home screen" width="200"/> | <img src="./screenshots/swipe-right.png" alt="Swipe right with glitter effect" width="200"/> | <img src="./screenshots/swipe-left.png" alt="Swipe left with cross animation" width="200"/> | <img src="./screenshots/reload.png" alt="You're all caught up reload state" width="200"/> |
 
 ---
 
