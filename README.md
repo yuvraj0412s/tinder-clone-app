@@ -1,50 +1,93 @@
-# Welcome to your Expo app 👋
+# Tinder-Style Swipeable Card App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A smooth, swipe-based mobile app built with React Native + Expo that mimics the Tinder-style discovery feed.
 
-## Get started
+This project was created as part of a Frontend Engineer internship assignment to demonstrate skills in:
 
-1. Install dependencies
+-   ⚛️ React Native & Expo development
+-   🎨 UI/UX design with a muted peach & maroon theme
+-   🤝 Component-based architecture
+-   🌀 Gesture handling with `react-native-gesture-handler` & `Reanimated`
+-   ✨ Animations & Lottie integration for swipe feedback
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Screenshots
 
-In the output, you'll find options to open the app in a
+| Home Screen | Swipe Right | Swipe Left | Empty Deck |
+| :---------: | :---------: | :--------: | :--------: |
+| <img src="./screenshots/home.png" alt="Home screen" width="200"/> | <img src="./screenshots/swipe-right.png" alt="Swipe right with glitter effect" width="200"/> | <img src="./screenshots/swipe-left.png" alt="Swipe left with cross animation" width="200"/> | <img src="./screenshots/reload.png" alt="You're all caught up reload state" width="200"/> |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Features
 
-## Get a fresh project
+-   ✔️ Swipe left / right with fluid, physics-based animations.
+-   ✔️ Glitter checkmark animation on right swipe.
+-   ✔️ Cross animation on left swipe.
+-   ✔️ Muted peach & maroon color palette for a polished look.
+-   ✔️ "You're all caught up!" end state with a reload button.
+-   ✔️ Responsive design across both iOS & Android.
 
-When you're ready, run:
+## 🛠️ Tech Stack
+
+-   **Expo** (React Native framework)
+-   **TypeScript**
+-   **React Native Gesture Handler** (For the core swipe gesture)
+-   **React Native Reanimated** (For high-performance animations)
+-   **Lottie React Native** (For the check/cross animations)
+
+## 📂 Project Structure
+
+A clean, feature-driven project structure was used to keep the code organized and scalable.
 
 ```bash
-npm run reset-project
+.
+├── app
+│   ├── (tabs)/index.tsx      # Home screen (card stack logic)
+│   ├── (tabs)/_layout.tsx    # Tab navigator setup
+│   └── _layout.tsx           # Root app layout
+├── components
+│   ├── CardItem.tsx          # UI for a single card's content
+│   ├── SwipeableCard.tsx     # Swipe/gesture and animation logic
+│   └── ...                   # Other shared components
+├── assets/images             # Mock images for cards
+├── assets/lottie             # Lottie animations (check/cross)
+└── README.md
+```
+## 🏗️ How to Run
+1. Clone the repository
+
+```Bash
+git clone https://github.com/<your-username>/tinder-swipe-app.git
+cd tinder-swipe-app
+```
+3. Install dependencies
+```Bash
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+4. Start the development server
 
-## Learn more
+```Bash
+npx expo start
+```
+Once the server is running, scan the QR code with the Expo Go app on your iOS or Android device.
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🎯 Assignment Reference
+Task: Build a mobile application that displays a stack of swipeable cards (like Tinder).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Each card shows an image + title.
+- Cards can be swiped off screen left/right.
+- Use a muted peach/maroon theme.
+- Focus on code structure, component design, animations, and UX polish.
+## 👨‍💻 Author
+- Yuvraj Singh
 
-## Join the community
 
-Join our community of developers creating universal apps.
+📌 [Portfolio](https://yuvraj.bio) • [LinkedIn](https://www.linkedin.com/in/yuvraj-singh-77601827a/) • [GitHub](https://github.com/yuvraj0412s)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
